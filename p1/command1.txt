@@ -1,0 +1,7 @@
+set xrange[10:110]
+set yrange[0:150]
+set xlabel 'N'
+set ylabel 'count'
+set style data linespoints
+plot "BC1.txt" title 'cic bestcase' ,  'WC1.txt' title 'cic worstcase',"BC2.txt" title 'euclid bestcase' ,  'WC2.txt' title 'euclid worstcase',"BC3.txt" title 'rep sub bestcase' ,  'WC3.txt' title 'rep sub worstcase'
+pause -1 'hit any key'
