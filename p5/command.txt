@@ -1,0 +1,7 @@
+set xrange[4:1100]
+set yrange[0:11000]
+set xlabel 'N
+set ylabel 'operation count'
+set style data linespoints
+plot 'BC.txt' title 'bestcase' , 'WC.txt' title 'worstcase'
+pause -1 'hit any way'
