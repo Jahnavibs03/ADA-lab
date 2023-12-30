@@ -1,0 +1,7 @@
+set xrange[4:11]
+set yrange[0:100]
+set xlabel 'N
+set ylabel 'operation count'
+set style data linespoints
+plot 'BC.txt' title 'analysis' 
+pause -1 'hit any way'
